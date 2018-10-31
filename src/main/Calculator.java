@@ -10,6 +10,7 @@ public class Calculator {
         do {
             showMenu();
 
+
             selectedOperation = readInput("Please, select operation: ");
             switch (selectedOperation){
                 case "+":{
