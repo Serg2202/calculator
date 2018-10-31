@@ -10,7 +10,6 @@ public class Calculator {
         do {
             showMenu();
 
-
             selectedOperation = readInput("Please, select operation: ");
             switch (selectedOperation){
                 case "+":{
@@ -29,6 +28,7 @@ public class Calculator {
                     divide(readNumber("Please, input digit: "));
                     break;
                 }
+
             }
 // другой вариант реализации ветвления - через обычный цикл for.
 //            if (selectedOperation.equals("+")) {
